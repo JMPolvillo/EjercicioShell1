@@ -14,7 +14,7 @@ echo "Fecha actual: $d_act-$m_act-$a_act"
 
 let edad=$a_act-$a_int
 
-if [ $m_act -lt $m_int ]; then
+if [ $m_act -lt $m_int ] || { [ $m_act -eq $m_int ] && [ $d_act -lt $d_int ]; }; then
     edad=$((edad - 1))
 fi
 
