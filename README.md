@@ -27,7 +27,7 @@
 5) Para la línea 15, he creado una variable (cantidad_parametros) que realice un comando para leer caracteres (wc) en un archivo (-w) para la variable "archivo".
 6) Por último, un echo que muestre los caracteres del archivo indicado.
 
-#### Condicionales
+## Condicionales
 
 ### Ejercicio 1:
 
